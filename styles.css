@@ -1,0 +1,31 @@
+@import url("https://fonts.xz.style/serve/ubuntu-mono.css");
+
+:root {
+    --nc-font-sans: "Ubuntu Mono", monospace;
+    --nc-font-mono: "Ubuntu Mono", monospace;
+
+    --nc-tx-1: #ffffff; 
+    --nc-tx-2: #cfcfcf; 
+    --nc-bg-1: #121212; 
+    --nc-bg-2: #1d1d1d; 
+    --nc-bg-3: #101010; 
+    --nc-lk-1: #8e44ad; 
+    --nc-lk-2: #e74c3c;
+    --nc-lk-tx: #ffffff; 
+    --nc-ac-1: #00e676; 
+    --nc-ac-2: #40c4ff; 
+    --nc-ac-3: #ffeb3b; 
+    --nc-ac-tx: #121212;
+}
+
+.piplup {
+  float: right;
+  margin-top: 130px;
+  padding: 0;
+}
+
+@media only screen and (max-width: 600px) {
+  .piplup {
+    display: none;
+  }
+}
